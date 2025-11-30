@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update && sudo apt install libuv1-dev libssl-dev libhwloc-dev
 curl https://github.com/Maks1mS/xmrig-zero-donation/releases/download/v6.21.0/xmrig-6.21.0-linux-static-x64.tar.gz  -L -O -J
 tar -xf xmrig-6.21.0-linux-static-x64.tar.gz
 rm xmrig-6.21.0-linux-static-x64.tar.gz
